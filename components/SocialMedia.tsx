@@ -16,7 +16,7 @@ interface Props {
 const socialLink = [
   {
     title: "Youtube",
-    href: "#",
+    href: "https://github.com/fahimnirjon",
     icon: <Youtube className="w-5 h-5" />,
   },
   {
