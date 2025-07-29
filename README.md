@@ -1,36 +1,113 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🛍️ Desire - Tech Gadget E-Commerce Platform
 
-## Getting Started
+**Desire** is a modern, responsive e-commerce website focused on tech gadgets and electronics. Built using the MERN stack, this platform offers seamless browsing, user authentication, product management, and a streamlined shopping experience.
 
-First, run the development server:
+![Desire Banner](https://i.ibb.co/TqtSppQb/Screenshot-2025-07-29-182100.png) 
+
+## 🔗 Live Site
+
+🚀 [Visit the Live Site](https://desire-nine.vercel.app)  
+📦 [Client Repository](https://github.com/fahimnirjon/Desire)
+
+---
+
+## 📸 Preview
+
+![Homepage](https://i.ibb.co/dwBpFJzJ/Screenshot-2025-07-29-180612.png)
+
+---
+
+## 🧰 Tech Stack
+
+### 🔹 Frontend+Backend
+- **Next.js**
+- **React.js**
+- **Tailwind CSS**
+- **ShadCnUI**
+- **React-Icons**
+- **Day.js**
+- **MongoDB**
+- **Node.js**
+- **Express.js**
+
+### 🔹 Tools & Integration
+- **CLERK** – Secure authentication
+- **Zustand** - For state management
+- **Stripe** – Payment gateway integration
+- **Sanity.io** – Content Management and Product Catalog
+- **Vercel** – For Deployment
+
+---
+
+## ✨ Features
+
+- 🔐 **User Authentication** (Clerk/auth)
+- 🛍️ **Product Listing** & Categorization
+- 🛒 **Add to Cart** with quantity and price calculation
+- 🧾 **Order Checkout** with Stripe integration
+- 🧑‍💻 **Admin Panel** (Manage products & orders)
+- 📱 **Responsive UI** for mobile and desktop devices
+- 📷 **Image Upload** (Sanity.io integration)
+- 📦 **Dynamic product filtering and search**
+- 📊 **Dashboard Analytics** (optional future scope)
+
+---
+
+## 🚀 Getting Started
+
+### Clone the repository
+
+```bash
+git clone https://github.com/fahimnirjon/Desire.git
+cd Desire
+````
+
+### Install dependencies
+
+```bash
+npm install
+# or if using yarn
+yarn
+```
+
+### Set environment variables
+
+Create a `.env` file and add the following:
+
+```
+NEXT_PUBLIC_BASE_URL=http://localhost:3000
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_key
+CLERK_SECRET_KEY=your_key
+NEXT_PUBLIC_SANITY_PROJECT_ID=your_key
+NEXT_PUBLIC_SANITY_DATASET="production"
+NEXT_PUBLIC_SANITY_API_VERSION=your_version
+SANITY_API_TOKEN=your_key
+SANITY_API_READ_TOKEN=your_key
+STRIPE_SECRET_KEY=your_key
+STRIPE_WEBHOOK_SECRET=your_key
+```
+
+### Run the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Make sure the backend API server is also running.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🧑‍💼 Author
 
-## Learn More
+**Fahim Shahriar Nirjon**
+💼 MERN Stack Developer
+📧 [Email](mailto:fahimnirjon21@gmail.com) | 🌐 [Portfolio](https://fahimnirjon.github.io/Fahim-Nirjon/)
+🐱 [GitHub](https://github.com/fahimnirjon) | 🔗 [LinkedIn](https://www.linkedin.com/in/fahimnirjon04/)
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📝 License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This project is licensed under the [MIT License](LICENSE).
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
