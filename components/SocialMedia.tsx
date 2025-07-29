@@ -36,7 +36,7 @@ const socialLink = [
   },
   {
     title: "Slack",
-    href: "#",
+    href: "https://github.com/fahimnirjon",
     icon: <Slack className="w-5 h-5" />,
   },
 ];
