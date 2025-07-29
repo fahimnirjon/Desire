@@ -31,7 +31,7 @@ const socialLink = [
   },
   {
     title: "Facebook",
-    href: "#",
+    href: "https://www.facebook.com/fahimshahriar.nirjon/",
     icon: <Facebook className="w-5 h-5" />,
   },
   {
