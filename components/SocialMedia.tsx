@@ -26,7 +26,7 @@ const socialLink = [
   },
   {
     title: "Linkedin",
-    href: "#",
+    href: "https://www.linkedin.com/in/fahimnirjon04",
     icon: <Linkedin className="w-5 h-5" />,
   },
   {
