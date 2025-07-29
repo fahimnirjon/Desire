@@ -21,7 +21,7 @@ const socialLink = [
   },
   {
     title: "Github",
-    href: "#",
+    href: "https://github.com/fahimnirjon",
     icon: <Github className="w-5 h-5" />,
   },
   {
